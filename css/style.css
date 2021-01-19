@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Padauk', sans-serif;
+    color: #B9BACCFF;
+    font-size: 25px;
+}
+@font-face {
+    font-family: 'Padauk';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/padauk-v7-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/padauk-v7-latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/padauk-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/padauk-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/padauk-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/padauk-v7-latin-regular.svg#Padauk') format('svg');
+    /* Legacy iOS */
+}
+
+/* poiret-one-regular - latin */
+
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poiret-one-v9-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/poiret-one-v9-latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/poiret-one-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/poiret-one-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/poiret-one-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poiret-one-v9-latin-regular.svg') format('svg');
+    /* Legacy iOS */
+}
+section {
+    padding-bottom: 8%;
+}
+#home {
+    background-image: url(../img/programare-web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(57, 94, 150);
+    justify-content: space-between;
+    padding: 0 40px;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+header h1 {
+    display: flex;
+    width: 300px;
+    color: white;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.contain1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    margin-top: 130px;
+}
+.contain1 .hello {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 2.5em;
+    font-stretch: ultra-expanded;
+    color: hsl(2, 100%, 50%);
+    text-align: center;
+    margin-top: 110px;
+    line-height: 1.2em;
+    width: 85%;
+}
+.contain1 div {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+.contain1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E85546FF;
+    border-radius: 50px;
+    text-transform: uppercase;
+    width: 32%;
+    margin: 55px;
+    height: 55px;
+    font-size: 1rem;
+}
+#contact {
+    background-color: rgb(39, 112, 185);
+}
+
+#contact h3 {
+    text-align: center;
+    color: white;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12%;
+    height: 230px;
+}
+
+.message {
+    width: 49%;
+}
+
+.message textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: solid transparent 1px;
+    border-radius: 5px;
+}
+.reste {
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.reste .input {
+    border: solid transparent 1px;
+    border-radius: 5px;
+    width: 100%;
+    height: 25%;
+}
+#send {
+    width: 27%;
+    color: white;
+    text-transform: uppercase;
+    background-color: #E74C3CFF;
+}
+
+#send:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

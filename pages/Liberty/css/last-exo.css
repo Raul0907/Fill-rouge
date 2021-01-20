@@ -36,21 +36,24 @@
     url('../fonts/poiret-one-v9-latin-regular.svg') format('svg');
     /* Legacy iOS */
 }
+
 section {
     padding-bottom: 8%;
 }
+
 #home {
-    background-image: url(../img/programare-web.jpg);
+    background-image: url(../images/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
 }
+
 header {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: rgb(57, 94, 150);
+    background-color: #E85546FF;
     justify-content: space-between;
     padding: 0 40px;
     text-transform: uppercase;
@@ -81,6 +84,7 @@ a {
 nav a:hover {
     text-decoration: underline;
 }
+
 .contain1 {
     display: flex;
     flex-direction: column;
@@ -90,16 +94,21 @@ nav a:hover {
 #logo {
     margin-top: 130px;
 }
+
 .contain1 .hello {
     font-family: 'Poiret One', sans-serif;
     font-size: 2.5em;
     font-stretch: ultra-expanded;
-    color: hsl(2, 100%, 50%);
+    text-transform: uppercase;
+    color: white;
     text-align: center;
     margin-top: 110px;
     line-height: 1.2em;
+    word-spacing: 0.1em;
     width: 85%;
+    letter-spacing: 0.1em;
 }
+
 .contain1 div {
     display: flex;
     justify-content: center;
@@ -118,32 +127,115 @@ nav a:hover {
     height: 55px;
     font-size: 1rem;
 }
-h2{
+
+.present {
+    border: solid transparent 1px;
+    width: 100%;
+}
+
+.present>* {
+    width: 36%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.present h3 {
+    font-family: 'Poiret One', sans-serif;
+    color: #2C3E50FF;
     font-weight: 400;
     font-size: 2.4rem;
     text-transform: uppercase;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    color: black;
+    margin-top: 8%;
 }
-#works{
+
+.containworks {
     margin: 0 12%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.containworks img {
+    margin: 8px 5px;
+}
+
+.containprice {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.option {
+    border: #E6E6E6FF solid 2px;
+    border-radius: 5px;
+    width: 17%;
+    margin: 15px;
+    text-align: center;
+    min-width: 300px;
+}
+
+.of-price {
+    border-bottom: solid #E6E6E6FF 2px;
+    padding: 25px 0;
+    background-color: #F5F5F5FF;
+    color: #51557FFF;
+}
+
+.of-price>h5 {
+    font-weight: 100;
+    color: #51557FFF;
+    font-size: 2rem;
+}
+
+.row-of {
+    border-bottom: #E6E6E6FF solid 2px;
+    padding: 10px;
+    margin: 0 25px;
+    color: #939EC3FF;
+}
+
+.of-signup {
+    border: transparent solid 1px;
+    border-radius: 7px;
+    background-color: #1E2A37FF;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 10%;
+    padding: 3%;
+}
+
+.option:hover {
+    border: #3498DBFF solid 2px;
+    transition: 1s linear;
+}
+
+.option:hover>.of-price {
+    background-color: #3498DBFF;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.option:hover .of-signup {
+    background-color: #3498DBFF;
+    transition: 0.5s ease;
+}
+
+.option:hover h5 {
+    color: white;
+    transition: 0.5s ease;
+}
+
 #contact {
-    background-color: rgb(39, 112, 185);
+    background-color: #2C3E50FF;
 }
 
 #contact h3 {
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
     color: white;
 }
+
 .form {
     display: flex;
     justify-content: space-between;
@@ -162,6 +254,7 @@ h2{
     border: solid transparent 1px;
     border-radius: 5px;
 }
+
 .reste {
     width: 49%;
     display: flex;
@@ -177,6 +270,13 @@ h2{
     width: 100%;
     height: 25%;
 }
+
+#contactdirection {
+    width: 69%;
+    color: #757575FF;
+    padding-left: 1.5em;
+}
+
 #send {
     width: 27%;
     color: white;
@@ -188,3 +288,68 @@ h2{
     text-decoration: underline;
     cursor: pointer;
 }
+
+input::placeholder {
+    padding: 2em;
+}
+
+textarea::placeholder {
+    padding: 1.3em;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+ .fleche-haut {
+    height: 50px;
+    width: 50px;
+    background-color: #E74C3C;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: -25px;
+  }
+  
+  .textefin {
+    text-align: center;
+    padding-bottom: 30px;
+      }
+  
+  .reseau {
+    margin: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+   .text-fin{
+       text-align: center;
+       padding-bottom: 20px;
+       padding-top: 50px;
+
+   } 
+  .facebook {
+    height: 50px;
+    width: 50px;
+    background-color: #1a1a5e;
+    border-radius: 50%;
+    margin-right:20px;
+    
+  }
+  
+  .twitter {
+    height: 50px;
+    width: 50px;
+    background-color: #0d6e94;
+    border-radius: 50%;
+    margin-right:20px;
+  }
+  
+  .google {
+    height: 50px;
+    width: 50px;
+    background-color: #E74C3C;
+    border-radius: 50%;
+  }
+ 

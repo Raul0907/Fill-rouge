@@ -133,6 +133,9 @@ h2{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+#works a{
+    height: 300px;
+}
 #contact {
     background-color: rgb(39, 112, 185);
 }
